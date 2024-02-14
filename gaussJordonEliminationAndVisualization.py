@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 def gauss_jordan_elimination_visualization(A, b):
     """
-    Solve the system of linear equations Ax = b using Gauss-Jordan elimination with visualization.
+    Solve system of linear equations Ax = b using Gauss-Jordan elimination with visualization.
 
     Parameters:
         A (ndarray): Coefficient matrix of shape (n, n).
