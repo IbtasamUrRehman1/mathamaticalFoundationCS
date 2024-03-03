@@ -7,8 +7,8 @@ def calculate_eigenvalues_eigenvectors_visualization(matrix):
     eigenvalues, eigenvectors = np.linalg.eig(matrix)
 
     # Print eigenvalues and eigenvectors
-    print("Eigenvalues:", eigenvalues)
-    print("Eigenvectors:")
+    print("Eigenvalues :", eigenvalues)
+    print("Eigenvectors :")
     for i in range(len(eigenvectors)):
         print(f"Eigenvector {i + 1}:", eigenvectors[:, i])
 
